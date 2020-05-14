@@ -1,0 +1,46 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  height: 170px;
+  margin: 10px;
+  font-size: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.main {
+  margin: 150px 0 0 0;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+}
+
+.blue {
+  background: blue;
+}
+.orange {
+  background: orange;
+}
+.yellow {
+  background: yellow;
+}
+
+.red {
+  background: red;
+}
+
+.pink {
+  background: pink;
+}
+
+.green {
+  background: green;
+}

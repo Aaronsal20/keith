@@ -1,0 +1,12 @@
+
+<div class="main">
+  <div class="grid-container">
+    <div *ngIf="!blue" class="grid-item"><button [disabled]="blue" mat-raised-button class="blue" (click)="openDialog('blue')"></button></div>
+    <div *ngIf="!red" class="grid-item"><button [disabled]="red" mat-raised-button class="red" (click)="openDialog('red')"></button></div>
+    <div *ngIf="!green" class="grid-item"><button [disabled]="green" mat-raised-button class="green" (click)="openDialog('green')"></button></div>
+    <div *ngIf="!yellow" class="grid-item"><button [disabled]="yellow" mat-raised-button class="yellow" (click)="openDialog('yellow')"></button></div>
+    <div *ngIf="!orange" class="grid-item"><button [disabled]="orange" mat-raised-button class="orange" (click)="openDialog('orange')"></button></div>
+    <div *ngIf="!pink" class="grid-item"><button [disabled]="pink" mat-raised-button class="pink" (click)="openDialog('pink')"></button></div>
+  </div>
+</div>
+
