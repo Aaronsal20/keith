@@ -37,8 +37,8 @@ export class AppComponent {
       this.blue = true;
       const dialogRef = this.dialog.open(DialogComponent, {
         width: '90rem',
-        height: '20rem',
-        data: { topic: "My Dog"}
+        height: '32rem',
+        data: { topic: "What are the must see places at your hometown?"}
       });
 
       dialogRef.afterClosed().subscribe(result => {
@@ -47,8 +47,8 @@ export class AppComponent {
       this.red = true;
       const dialogRef = this.dialog.open(DialogComponent, {
         width: '90rem',
-        height: '20rem',
-        data: { topic: "My Cat"}
+        height: '32rem',
+        data: { topic: "A place you would like to travel to and why?"}
       });
 
       dialogRef.afterClosed().subscribe(result => {
@@ -58,8 +58,8 @@ export class AppComponent {
       this.pink = true;
       const dialogRef = this.dialog.open(DialogComponent, {
         width: '90rem',
-        height: '20rem',
-        data: { topic: "My Dog"}
+        height: '32rem',
+        data: { topic: "What is your most memorable vacation and why?"}
       });
 
       dialogRef.afterClosed().subscribe(result => {
@@ -69,8 +69,8 @@ export class AppComponent {
       this.yellow = true;
       const dialogRef = this.dialog.open(DialogComponent, {
         width: '90rem',
-        height: '20rem',
-        data: { topic: "My Dog"}
+        height: '32rem',
+        data: { topic: "If you could take 3 famous celebrities on a vacation; who would they be and why?"}
       });
 
       dialogRef.afterClosed().subscribe(result => {
@@ -80,8 +80,8 @@ export class AppComponent {
       this.orange = true;
       const dialogRef = this.dialog.open(DialogComponent, {
         width: '90rem',
-        height: '20rem',
-        data: { topic: "My Dog"}
+        height: '32rem',
+        data: { topic: "How did you spend summer vacations as a child?"}
       });
 
       dialogRef.afterClosed().subscribe(result => {
@@ -90,8 +90,8 @@ export class AppComponent {
       this.green = true;
       const dialogRef = this.dialog.open(DialogComponent, {
         width: '90rem',
-        height: '20rem',
-        data: { topic: "My Dog"}
+        height: '32rem',
+        data: { topic: " If you could time travel through history, what event would you change and why?"}
       });
 
       dialogRef.afterClosed().subscribe(result => {
